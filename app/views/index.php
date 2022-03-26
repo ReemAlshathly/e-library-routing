@@ -5,13 +5,13 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link  id="lang"rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/login.css'>
+    <link  id="lang"rel='stylesheet' type='text/css' media='screen' href='app/assets/css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='app/assets/css/login.css'>
     
    
 
-    <script src='main.js'></script>
-    <script src='../js/slider.js'></script>
+    <script src='app/assets/main.js'></script>
+    <script src='app/assets/js/slider.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
     ="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
      crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -168,7 +168,7 @@
             <div class="bask" style="margin-right: 2%;margin-left: 2%;">
                 <span   class="span">0</span>
         
-          <a href="../html/basket.html" class="head-cart">
+          <a href="basket" class="head-cart">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -209,9 +209,9 @@
           </div>
         </div>
         <div>
-          <a href="index.html" class="logo-im">
+          <a href="index" class="logo-im">
             <img
-              src="../img/2.PNG"
+              src="app/assets/img/2.PNG"
               class="logg"
               height="100px"
               width="100px"
@@ -224,7 +224,7 @@
 <main>
     <section class="login-section">
         <div class="model-content" id="model-continer">
-          <span class="close"><a href="../html/index.html" style="text-decoration: none;
+          <span class="close"><a href="index.php" style="text-decoration: none;
             font-size: 3vw;
            
             position: absolute;
@@ -240,7 +240,7 @@
             </form>
         </div>
         <div class="model-content2" id="model-continer2">
-          <span class="close"><a href="../html/index.html" style="text-decoration: none;
+          <span class="close"><a href="index" style="text-decoration: none;
             font-size: 3vw;
            
             position: absolute;
@@ -268,17 +268,17 @@
 
    
           <div class="Slides">
-            <img class="im-slider" src="../img/show1.jpg" width="20%" height="10%">
+            <img class="im-slider" src="app/assets/img/show1.jpg" width="20%" height="10%">
             <div class="text">Caption Text</div>
           </div>
         
           <div class="Slides">
-              <img class="im-slider" src="../img/show2.jpg" width="20%" height="10%">
+              <img class="im-slider" src="app/assets/img/show2.jpg" width="20%" height="10%">
               <div class="text">Caption Text</div>
             </div>
         
             <div class="Slides">
-              <img  class="im-slider" src="../img/show3.jpg"  width="20%" height="10%">
+              <img  class="im-slider" src="app/assets/img/show3.jpg"  width="20%" height="10%">
               <div class="text">Caption Text</div>
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -326,7 +326,7 @@
     
    
     <br> <br> 
-    <div style="width:100%;padding: 3%; "> <h2 class="index-head">  تصفح حسب القسم  </h2><a href="../html/catogry.html" class="cat-a">عرض المزيد</a></div>
+    <div style="width:100%;padding: 3%; "> <h2 class="index-head">  تصفح حسب القسم  </h2><a href="catogry" class="cat-a">عرض المزيد</a></div>
 
     <section class="first-section">
      
@@ -447,7 +447,7 @@
       <div >
         <div class="bask">
          
-    <a href="../html/basket.html" class="head-cart" style="color: rgb(18, 99, 126);"> 
+    <a href="basket.php" class="head-cart" style="color: rgb(18, 99, 126);"> 
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="24px"
@@ -466,24 +466,24 @@
     </section>
     <div class="images">
       <div>
-        <img src="../img/show1.jpg">
-        <img src="../img/show2.jpg">
-        <img src="../img/show3.jpg">
-        <img src="../img/show1.jpg">
+        <img src="app/assets/img/show1.jpg">
+        <img src="app/assets/img/show2.jpg">
+        <img src="app/assets/img/show3.jpg">
+        <img src="app/assets/img/show1.jpg">
        
       </div>
       <div style="width: 80%;height: 20vh;">
-        <img src="../img/show1.jpg">
+        <img src="app/assets/img/show1.jpg">
       </div>
 
     </div>
-    <div style="width:100%;padding: 3%;padding: 3%; "> <h2 class="index-head"> العروض الحالية  </h2><a href="../html/catogry.html" class="cat-a">عرض المزيد</a></div>
+    <div style="width:100%;padding: 3%;padding: 3%; "> <h2 class="index-head"> العروض الحالية  </h2><a href="catogry.php" class="cat-a">عرض المزيد</a></div>
     <section class="show-now" id="list">
       
         <div class="books">
-           <a href="../html/detials.html"> <img href="detials.html" src="../img/b1.PNG" width="300vw" height="250vh"  ></a>
+           <a href="detials.php"> <img href="detials.php" src="app/assets/img/b1.PNG" width="300vw" height="250vh"  ></a>
             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
-                <div><a href="./detials.html">
+                <div><a href="detials.php">
                     <svg
                       xmlns:xlink="http://www.w3.org/1999/xlink"
                       xmlns="http://www.w3.org/2000/svg"
@@ -603,7 +603,7 @@
                     </div>
                     
                     <div class="books">
-                       <a href="../html/detials.html"> <img  src="../img/b4.PNG" width="300vw" height="250vh" ></a>
+                       <a href="../html/detials.html"> <img  src="app/assets/img/b4.PNG" width="300vw" height="250vh" ></a>
                         <div class="book-icon"><a href="../html/detials.html"> <h3>كتاب الكتروني</h3></a>
                             <div>
                                 <svg
@@ -724,7 +724,7 @@
                         
                                 </div>
                                 <div class="books">
-                                    <a href="../html/detials.html"><img src="../img/b3.PNG" width="300vw" height="250vh" ></a>
+                                    <a href="../html/detials.html"><img src="app/assets/img/b3.PNG" width="300vw" height="250vh" ></a>
                                     <div class="book-icon"><a href="../html/detials.html"> <h3>كتاب الكتروني</h3></a>
                                         <div>
                                             <svg
@@ -848,7 +848,7 @@
                                     
                                             </div>
                                             <div class="books">
-                                                <img src="../img/b2.PNG" width="100%" height="60%" >
+                                                <img src="app/assets/img/b2.PNG" width="100%" height="60%" >
                                                 <div class="book-icon"><a href="../html/detials.html"> <h3>كتاب الكتروني</h3></a>
                                                     <div>
                                                         <svg
@@ -969,7 +969,7 @@
                                                 
                                                         </div>
                                                         <div class="books">
-                                                            <img src="../img/b5.PNG" width="100%" height="60%" >
+                                                            <img src="app/assets/img/b5.PNG" width="100%" height="60%" >
                                                             <div class="book-icon"><a href="../html/detials.html"> <h3>كتاب الكتروني</h3></a>
                                                                 <div>
                                                                     <svg
@@ -1096,7 +1096,7 @@
        <section class="show-now" id="den" id="list">
        
         <div class="books">
-            <img src="../img/b1.PNG" width="100%" height="60%" >
+            <img src="app/assets/img/b1.PNG" width="100%" height="60%" >
             <div class="book-icon"><a href="../html/detials.html"> <h3>كتاب الكتروني</h3></a>
                 <div>
                     <svg
@@ -1218,7 +1218,7 @@
                     </div>
                     
                     <div class="books">
-                        <img src="../img/b4.PNG" width="100%" height="60%" >
+                        <img src="app/assets/img/b4.PNG" width="100%" height="60%" >
                         <div class="book-icon"><a href="../html/detials.html"> <h3>كتاب الكتروني</h3></a>
                             <div>
                                 <svg
@@ -1339,7 +1339,7 @@
                         
                                 </div>
                                 <div class="books">
-                                    <img src="../img/b3.PNG" width="100%" height="60%" >
+                                    <img src="app/assets/img/b3.PNG" width="100%" height="60%" >
                                     <div class="book-icon"><a href="../html/detials.html"> <h3>كتاب الكتروني</h3></a>
                                         <div>
                                             <svg
@@ -1463,7 +1463,7 @@
                                     
                                             </div>
                                             <div class="books">
-                                                <a href="../html/detials.html"><img src="../img/b2.PNG" width="300vw" height="250vh" ></a>
+                                                <a href="../html/detials.html"><img src="app/assets/img/b2.PNG" width="300vw" height="250vh" ></a>
                                                 <div class="book-icon"><a href="../html/detials.html"> <h3>كتاب الكتروني</h3></a>
                                                     <div>
                                                         <svg
@@ -1584,7 +1584,7 @@
                                                 
                                                         </div>
                                                         <div class="books">
-                                                            <img src="../img/b5.PNG" width="100%" height="60%" >
+                                                            <img src="app/assets/img/b5.PNG" width="100%" height="60%" >
                                                             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                                 <div>
                                                                     <svg
@@ -1711,7 +1711,7 @@
        <section class="show-now" id ="history" id="list">
         
         <div class="books">
-            <img src="../img/b1.PNG" width="100%" height="60%" >
+            <img src="app/assets/img/b1.PNG" width="100%" height="60%" >
             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                 <div>
                     <svg
@@ -1833,7 +1833,7 @@
                     </div>
                     
                     <div class="books">
-                        <img src="../img/b4.PNG" width="100%" height="60%" >
+                        <img src="app/assets/img/b4.PNG" width="100%" height="60%" >
                         <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                             <div>
                                 <svg
@@ -1954,7 +1954,7 @@
                         
                                 </div>
                                 <div class="books">
-                                    <img src="../img/b3.PNG" width="100%" height="60%" >
+                                    <img src="app/assets/img/b3.PNG" width="100%" height="60%" >
                                     <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                         <div>
                                             <svg
@@ -2078,7 +2078,7 @@
                                     
                                             </div>
                                             <div class="books">
-                                                <img src="../img/b2.PNG" width="100%" height="60%" >
+                                                <img src="app/assets/img/b2.PNG" width="100%" height="60%" >
                                                 <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                     <div>
                                                         <svg
@@ -2199,7 +2199,7 @@
                                                 
                                                         </div>
                                                         <div class="books">
-                                                            <img src="../img/b5.PNG" width="100%" height="60%" >
+                                                            <img src="app/assets/img/b5.PNG" width="100%" height="60%" >
                                                             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                                 <div>
                                                                     <svg
@@ -2326,7 +2326,7 @@
        <section class="show-now" id="seia" id="list">
       
         <div class="books">
-            <img src="../img/b1.PNG" width="100%" height="60%" >
+            <img src="app/assets//img/b1.PNG" width="100%" height="60%" >
             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                 <div>
                     <svg
@@ -2448,7 +2448,7 @@
                     </div>
                     
                     <div class="books">
-                        <img src="../img/b4.PNG" width="100%" height="60%" >
+                        <img src="app/assets/img/b4.PNG" width="100%" height="60%" >
                         <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                             <div>
                                 <svg
@@ -2569,7 +2569,7 @@
                         
                                 </div>
                                 <div class="books">
-                                    <img src="../img/b3.PNG" width="100%" height="60%" >
+                                    <img src="app/assets//img/b3.PNG" width="100%" height="60%" >
                                     <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                         <div>
                                             <svg
@@ -2693,7 +2693,7 @@
                                     
                                             </div>
                                             <div class="books">
-                                                <img src="../img/b2.PNG" width="100%" height="60%" >
+                                                <img src="app/assets/img/b2.PNG" width="100%" height="60%" >
                                                 <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                     <div>
                                                         <svg
@@ -2814,7 +2814,7 @@
                                                 
                                                         </div>
                                                         <div class="books">
-                                                            <img src="../img/b5.PNG" width="100%" height="60%" >
+                                                            <img src="app/assets/img/b5.PNG" width="100%" height="60%" >
                                                             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                                 <div>
                                                                     <svg
@@ -2941,7 +2941,7 @@
        <section class="show-now" id="econ" id="list">
         
         <div class="books">
-            <img src="../img/b1.PNG" width="100%" height="60%" >
+            <img src="app/assets/img/b1.PNG" width="100%" height="60%" >
             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                 <div>
                     <svg
@@ -3063,7 +3063,7 @@
                     </div>
                     
                     <div class="books">
-                        <img src="../img/b4.PNG" width="100%" height="60%" >
+                        <img src="app/assets/img/b4.PNG" width="100%" height="60%" >
                         <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                             <div>
                                 <svg
@@ -3184,7 +3184,7 @@
                         
                                 </div>
                                 <div class="books">
-                                    <img src="../img/b3.PNG" width="100%" height="60%" >
+                                    <img src="app/assets/img/b3.PNG" width="100%" height="60%" >
                                     <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                         <div>
                                             <svg
@@ -3308,7 +3308,7 @@
                                     
                                             </div>
                                             <div class="books">
-                                                <img src="../img/b2.PNG" width="100%" height="60%" >
+                                                <img src="app/assets/img/b2.PNG" width="100%" height="60%" >
                                                 <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                     <div>
                                                         <svg
@@ -3429,7 +3429,7 @@
                                                 
                                                         </div>
                                                         <div class="books">
-                                                            <img src="../img/b5.PNG" width="100%" height="60%" >
+                                                            <img src="app/assets/img/b5.PNG" width="100%" height="60%" >
                                                             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                                 <div>
                                                                     <svg
@@ -3556,7 +3556,7 @@
        <section class="show-now" id="cook" id="list">
        
         <div class="books">
-            <img src="../img/b1.PNG" width="100%" height="60%" >
+            <img src="app/assets/img/b1.PNG" width="100%" height="60%" >
             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                 <div>
                     <svg
@@ -3678,7 +3678,7 @@
                     </div>
                     
                     <div class="books">
-                        <img src="../img/b4.PNG" width="100%" height="60%" >
+                        <img src="app/assets/img/b4.PNG" width="100%" height="60%" >
                         <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                             <div>
                                 <svg
@@ -3799,7 +3799,7 @@
                         
                                 </div>
                                 <div class="books">
-                                    <img src="../img/b3.PNG" width="100%" height="60%" >
+                                    <img src="app/assets/img/b3.PNG" width="100%" height="60%" >
                                     <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                         <div>
                                             <svg
@@ -3923,7 +3923,7 @@
                                     
                                             </div>
                                             <div class="books">
-                                                <img src="../img/b2.PNG" width="100%" height="60%" >
+                                                <img src="app/assets/img/b2.PNG" width="100%" height="60%" >
                                                 <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                     <div>
                                                         <svg
@@ -4044,7 +4044,7 @@
                                                 
                                                         </div>
                                                         <div class="books">
-                                                            <img src="../img/b5.PNG" width="100%" height="60%" >
+                                                            <img src="app/assets/img/b5.PNG" width="100%" height="60%" >
                                                             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                                 <div>
                                                                     <svg
@@ -4171,7 +4171,7 @@
        <section class="show-now"id="story" id="list">
        
         <div class="books">
-            <img src="../img/b1.PNG" width="100%" height="60%" >
+            <img src="app/assets/img/b1.PNG" width="100%" height="60%" >
             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                 <div>
                     <svg
@@ -4293,7 +4293,7 @@
                     </div>
                     
                     <div class="books">
-                        <img src="../img/b4.PNG" width="100%" height="60%" >
+                        <img src="app/assets/img/b4.PNG" width="100%" height="60%" >
                         <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                             <div>
                                 <svg
@@ -4414,7 +4414,7 @@
                         
                                 </div>
                                 <div class="books">
-                                    <img src="../img/b3.PNG" width="100%" height="60%" >
+                                    <img src="app/assets//img/b3.PNG" width="100%" height="60%" >
                                     <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                         <div>
                                             <svg
@@ -4538,7 +4538,7 @@
                                     
                                             </div>
                                             <div class="books">
-                                                <img src="../img/b2.PNG" width="100%" height="60%" >
+                                                <img src="app/assets/img/b2.PNG" width="100%" height="60%" >
                                                 <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                     <div>
                                                         <svg
@@ -4659,7 +4659,7 @@
                                                 
                                                         </div>
                                                         <div class="books">
-                                                            <img src="../img/b5.PNG" width="100%" height="60%" >
+                                                            <img src="app/assets/img/b5.PNG" width="100%" height="60%" >
                                                             <div class="book-icon"><a href="#"> <h3>كتاب الكتروني</h3></a>
                                                                 <div>
                                                                     <svg
@@ -5136,7 +5136,7 @@
   <div class="footer-sec1" style="color: rgb(144, 144, 144);
   background-color: #e6e6e6;">
     <div class="footer-div"  >
-      <img src="../img/1.PNG">
+      <img src="app/assets/img/im.png">
     </div>
     <div class="footer-div" style="direction: ltr; color: rgb(144, 144, 144);
   ">
@@ -5149,7 +5149,7 @@
     </footer>
         
 
-    <script src='../js/login.js'></script>
+    <script src='app/assets/js/login.js'></script>
     <script>
         /// JavaScript code
         function search_animal() {
@@ -5167,8 +5167,8 @@
             }
         }
             </script>
-             <script src='../js/language.js'></script>
-             <script src='../js/count.js'></script>
+             <script src='app/assets/js/language.js'></script>
+             <script src='app/assets/js/count.js'></script>
              <script>
               
 

@@ -9,27 +9,27 @@ class Home extends Controller{
 
     function index(){
 
-       $this->view("html/index");
+       $this->view("index");
 
     }
     function basket(){
 
-        $this->view("html/basket");
+        $this->view("basket");
  
      }
      function catogry(){
 
-        $this->view("html/catogry");
+        $this->view("catogry");
  
      }
      function buy(){
 
-        $this->view("html/buy");
+        $this->view("buy");
  
      }
      function detials(){
 
-        $this->view("html/detials");
+        $this->view("detials");
  
      }
 
